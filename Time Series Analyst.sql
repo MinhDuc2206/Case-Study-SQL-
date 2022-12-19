@@ -6,7 +6,7 @@ First, let’s show the trend of the number of successful transactions by month.
 */
 
 
--- Bảng tạm   #trans_19_20 --
+-- Bảng local  #trans_19_20 --
 select * 
     into #trans_19_20 
 from fact_transaction_2019 as trans_19
